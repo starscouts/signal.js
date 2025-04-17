@@ -1,0 +1,54 @@
+{
+  "name": "@equestria.dev/signal.js",
+  "version": "1.1.2",
+  "description": "An easy-to-use Node.js library for Signal",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node indexgen.js && tsc"
+  },
+  "bugs": {
+    "email": "hello@equestria.dev",
+    "url": "https://bugs.equestria.dev/issues/SGJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.equestria.dev/equestria.dev/signal.js"
+  },
+  "homepage": "https://signaljs.equestria.dev",
+  "keywords": [
+    "signal",
+    "signal-cli",
+    "libsignal",
+    "api",
+    "client",
+    "node",
+    "signal messenger"
+  ],
+  "author": "Equestria.dev Developers <hello@equestria.dev> (https://equestria.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "@favware/npm-deprecate": "^1.0.7",
+    "@types/node": "^20.4.1",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "os": [
+    "darwin",
+    "win32",
+    "linux"
+  ],
+  "cpu": [
+    "arm64",
+    "x64"
+  ],
+  "dependencies": {
+    "@equestria.dev/signal-cli": "=0.11.11-rv.1",
+    "@types/marked": "^5.0.1",
+    "marked": "^5.1.1"
+  }
+}
